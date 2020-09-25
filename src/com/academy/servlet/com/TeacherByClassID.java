@@ -57,7 +57,7 @@ public class TeacherByClassID extends HttpServlet {
 				props.load(ins);
 
 				out.print("<table border='1'><tr><th>First Name</th><th>Last Name</th><th>Teacher ID</th><th>Subject Description</th><th>Subject Code</th><th>Class ID</th><th>Class Description</th></tr>");
-				out.print("<h1>Search Result</h1>");
+				out.print("<h1>Teachers for Class</h1>");
 				// create a connection
 				try {
 

@@ -48,7 +48,7 @@ public class ClassDetails extends HttpServlet {
 		props.load(ins);
 
 		out.print("<table border='1'><tr><th>ID</th><th>Description</th></tr>");
-		out.print("<h1>Display Class Details</h1>");
+		out.print("<h1>Displaying All  Classes</h1>");
 		// create a connection
 		try {
 
